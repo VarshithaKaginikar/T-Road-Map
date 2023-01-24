@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.ComplaintDetails">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Name:"></Label>
+            <Entry x:Name="Name"></Entry>
+            <Label Text="Email:"></Label>
+            <Entry x:Name="Email"></Entry>
+            <Label Text="Phone:"></Label>
+            <Entry x:Name="Phone"></Entry>
+            <Button Text="Upload Image" Clicked="UploadImage"></Button>
+            <Image x:Name="selectedImage"></Image>
+            <Button Text="Select Location" Clicked="selectLocation"></Button>
+            <Label x:Name="labelLocation"></Label>
+            <Button Text="Submit" Clicked="SubmitComplaint"></Button>
+            <Button Text="Cancel"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
